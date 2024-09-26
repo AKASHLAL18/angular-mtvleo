@@ -1,0 +1,25 @@
+.seat-map {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.seat {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.available {
+  background-color: lightgreen;
+}
+
+.booked {
+  background-color: red;
+  color: white;
+}
